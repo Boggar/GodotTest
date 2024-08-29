@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ig72o3nkdyrk"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="Timer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.71527, -0.496355, 1.24604)
+fov = 179.0
+near = 0.064
